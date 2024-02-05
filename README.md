@@ -1,6 +1,6 @@
 # Description
 
-This repository contains the codebase for the social media booster
+This repository contains the codebase for the social media booster.
 
 # To Do
 

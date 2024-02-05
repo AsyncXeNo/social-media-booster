@@ -1,5 +1,6 @@
 .env
 chromedriver.exe
+proxy_auth_plugin.zip
 
 .vscode/
 venv/
