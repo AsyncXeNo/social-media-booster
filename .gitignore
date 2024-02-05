@@ -5,3 +5,4 @@ chromedriver.exe
 venv/
 logs/
 **/__pycache__/
+accounts/accounts.json
