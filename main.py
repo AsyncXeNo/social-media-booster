@@ -7,7 +7,7 @@ import selenium_utils
 from loguru import logger
 
 from accounts.google import create_google_account
-from api.smsactivate import get_available_quantity_of_numbers, get_operators
+from api.smsactivate import get_active_activation_by_phone_number, get_balance
 
 
 if __name__ == '__main__':
@@ -23,5 +23,5 @@ if __name__ == '__main__':
     #     logger.debug('account created successfully')
 
     # logger.info('creating instagram account')
-
-    logger.info(get_available_quantity_of_numbers('Indonesia', 'indosat', 'facebook'))
+    logger.info(get_balance())
+    # logger.info(get_active_activation_by_phone_number(''))
